@@ -193,9 +193,14 @@ float: left;
 .contactinfo {
 	text-align: center;
 }
+
+.center {
+	text-align: center;
+}
+
 #mikepic img{
 	height: 200px;
-	padding-left: 450px;
+	padding-left: 400px;
     padding-top: 80px;
 
 }
@@ -208,7 +213,7 @@ float: left;
 
 }
 
-#indent {
+p {
 	text-indent: 50px;
 }
 
