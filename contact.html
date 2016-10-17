@@ -20,10 +20,10 @@
 				</div>
 				<div id="topmenudiv">
 						<ul>
-							<li class="topmenuli">FACEBOOK</li>
-							<li class="topmenuli">TWITTER</li>
-							<li class="topmenuli">LINKEDIN</li>
-							<li class="topmenuli">AAAS</li>
+							<li class="topmenuli"><a href="https://www.facebook.com/tony.saric.94">FACEBOOK</li>
+							<li class="topmenuli"><a href="https://twitter.com/antoniosaric2">TWITTER</li>
+							<li class="topmenuli"><a href="https://www.linkedin.com/in/tony-saric-0090351b">LINKEDIN</li>
+							<li class="topmenuli"><a href="http://www.aaas.org/">AAAS</li>
 						</ul>
 				</div>
 				<div id="searchdiv">
@@ -49,18 +49,37 @@
 						</div>
 							<div id="menu">
 								<ul>
-									<li id="selecthome"><Home</li>
-									<li>Web Projects</li>
-									<li>Grad Projects</li>
-									<li>Game Reviews</li>
-									<li>What's On My Mind</li>
-									<li>Tech & Companies</li>
-									<li>Contact Me</li>
+									<li><a href="index.html">Home</li>
+									<li><a href="webprojects">Web Projects</li>
+									<li><a href ="gradprojects.html">Grad Projects</li>
+									<li><a href="gamereviews.html">Game Reviews</li>
+									<li><a href="onmymind.html">What's On My Mind</li>
+									<li><a href="techandcomp.html">Tech & Companies</li>
+									<li id="selectcontact"><a href="contact.html">Contact Me</li>
 
 								</ul>
 							</div>
 
 					</div>
+					
+				</div>
+				<div class="break">
+				</div>
+					
+					<div id="content">
+						
+						<div class="fixedwidth">
+						<h3></h3>
+							
+						</div>
+					
+					</div>
+
+		</div>
+
+	</div>
+	<div></div>
+		<br><br><br><br>
 					
 				</div>
 				<div class="break">
@@ -83,9 +102,26 @@
 		</div>
 
 	</div>
-
-
-
-
+<br>
+<div class="contactinfo">
+<p>
+	For Any Questions, Please Fill Out The Form.
+</p>
+</div>
+<form id="contact_form" action="https://httpbin.org/post" method="POST" enctype="multipart/form-data" class="contactinfo">
+	<div class="row">
+		<label for="name">Your name:</label><br/>
+		<input id="name" class="input" name="name" type="text" value="" size="35" /><br/>
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br/>
+		<input id="email" class="input" name="email" type="text" value="" size="35" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your Question:</label><br/>
+		<textarea id="message" class="input" name="message" rows="10" cols="35"></textarea><br/>
+	</div>
+	<input id="submit_button" type="submit" value="Send email"/>
+</form>
 </body>
 </html>
