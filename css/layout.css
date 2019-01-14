@@ -356,7 +356,7 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: css 2s ease;
 }
 .ruby {
-  	width: 75%;
+  	width: 70%;
   	-moz-animation: ruby 2s ease;
   	-webkit-animation: ruby 2s ease;
 }
